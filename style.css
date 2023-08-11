@@ -1,0 +1,105 @@
+@import url(//db.onlinewebfonts.com/c/97c4b25dc74e0ab045154e75a8fdd69d?family=Game+of+Thrones);
+
+
+@media screen and (min-width: 320px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+        font-family: "Game of Thrones";
+    }
+    
+
+
+    .container{
+        width: 100vw;
+        height: 100vh;
+        background-image: url(./asset/01.jpg);
+        background-size: cover;
+        background-position: center;
+        object-fit: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .title{
+        font-size: 4rem;
+        color: #fff;
+
+    }
+
+    .Tower section{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+    }
+
+
+    .stark{
+        background-image: url(./asset/Stark.jpg);
+    }
+
+    .fire{
+        background-image: url(./asset/Targaryen.jpg);
+    }
+
+    .martell{
+        background-image: url(./asset/Martell.jpg);
+    }
+
+    .arryn{
+        background-image: url(./asset/Arryn.jpg);
+    }
+
+    .baratheon{
+        background-image: url(./asset/Baratheon.jpg);
+    }
+
+    .tully{
+        background-image: url(./asset/Tully.jpg);
+    }
+
+    .tyrrel{
+        background-image: url(./asset/Tyrrel.jpg);
+    }
+
+    .lannister{
+        background-image: url(./asset/Lannister.jpg);
+    }
+
+    .stark , .fire , .martell , .arryn , .baratheon , .tully , .tyrrel , .lannister{
+        background-position: center;
+        background-size: cover;
+        object-fit: cover;
+        color: #fff;
+        font-size: 2rem;
+       background-attachment: fixed;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+
+    .Tower section h2 {
+
+        rotate: 90deg;
+        position: absolute;
+        right: 0;
+    }
+
+    .title{
+        font-size: 8rem;
+
+    }
+
+
+}
