@@ -8,6 +8,7 @@
         box-sizing: border-box;
         font-family: 'Open Sans', sans-serif;
         font-family: "Game of Thrones";
+       
     }
     
 
@@ -22,6 +23,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        overflow: hidden;
     }
 
 
@@ -38,7 +40,7 @@
         justify-content: center;
         align-items: center;
         position: relative;
-
+     
     }
 
 
@@ -72,6 +74,7 @@
 
     .lannister{
         background-image: url(./asset/Lannister.jpg);
+  
     }
 
     .stark , .fire , .martell , .arryn , .baratheon , .tully , .tyrrel , .lannister{
@@ -81,8 +84,20 @@
         color: #fff;
         font-size: 2rem;
        background-attachment: fixed;
+    
     }
 
+    footer{
+        background-color: #1a1919;
+        color: #fff;
+        text-align: center;
+        width: 100vw;
+    }
+
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+    }
 }
 
 
